@@ -27,8 +27,8 @@ function Navbar() {
        </div>
        <div className="flex items-center justify-between ">
        <div className="flex items-center justify-center gap-x-4 max-lg:hidden">
-       <IoLockClosedSharp  className="text-4xl duration-700 transition-all hover:scale-95 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)] bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
-       <FiUser className="text-4xl duration-700 transition-all hover:scale-95 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
+       <IoLockClosedSharp  className="text-4xl duration-700 transition-all hover:scale-125 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)] bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
+       <FiUser className="text-4xl duration-700 transition-all hover:scale-125 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
        </div>
        <button className="block lg:hidden" onClick={toggleMenu}>
            {menu?(<IoCloseOutline className="text-4xl"/>):(<HiOutlineMenuAlt3 className="text-4xl" />)}
