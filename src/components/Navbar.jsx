@@ -27,8 +27,8 @@ function Navbar() {
        </div>
        <div className="flex items-center justify-between gap-40">
        <div className="flex items-center justify-center gap-x-4 max-lg:hidden">
-       <IoLockClosedSharp  className="text-4xl bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
-       <FiUser className="text-2xl"/>
+       <IoLockClosedSharp  className="text-4xl duration-300 bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
+       <FiUser className="text-4xl duration-300  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
        </div>
        <button className="" onClick={toggleMenu}>
            {menu?(<IoCloseOutline className=""/>):(<HiOutlineMenuAlt3 className="" />)}
