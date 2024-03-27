@@ -25,17 +25,17 @@ function Navbar() {
        <Link to={'contact'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize duration-300 cursor-pointer hover:text-secondary">contact</Link>
        <Link to={'products'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize duration-300 cursor-pointer hover:text-secondary">products</Link>
        </div>
-       <div className="flex items-center justify-between gap-40">
+       <div className="flex items-center justify-between ">
        <div className="flex items-center justify-center gap-x-4 max-lg:hidden">
        <IoLockClosedSharp  className="text-4xl duration-700 transition-all hover:scale-95 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)] bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
        <FiUser className="text-4xl duration-700 transition-all hover:scale-95 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
        </div>
-       <button className="" onClick={toggleMenu}>
+       <button className="block lg:hidden" onClick={toggleMenu}>
            {menu?(<IoCloseOutline className=""/>):(<HiOutlineMenuAlt3 className="" />)}
        </button>
        </div>
     </nav>
-    <section className={`${menu?' translate-x-0' :'-translate-x-full'} min-h-screen `}>
+    <section className={`${menu?' translate-x-0' :'-translate-x-full'} min-h-screen bg-white py-20 px-10 lg:hidden w-full fixed top-24 duration-700`}>
     <div className="">
        <Link to={'blog'} smooth={true} spy={true} duration={500} className="" onClick={closeMenu}>blog</Link>
        <Link to={'shop'} smooth={true} spy={true} duration={500} className="" onClick={closeMenu}>shop</Link>
