@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <>
     <header className="relative">
-    <nav className="flex items-center justify-between px-6 py-6">
+    <nav className="flex items-center justify-between px-4 py-6 md:px-10">
        <div className="">
         <Link to={'/'} smooth={true} spy={true} duration={300} className="text-3xl font-semibold capitalize duration-300 cursor-pointer hover:text-secondary" >shop</Link>
        </div>
@@ -31,21 +31,23 @@ function Navbar() {
        <FiUser className="text-4xl duration-700 transition-all hover:scale-95 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
        </div>
        <button className="block lg:hidden" onClick={toggleMenu}>
-           {menu?(<IoCloseOutline className=""/>):(<HiOutlineMenuAlt3 className="" />)}
+           {menu?(<IoCloseOutline className="text-4xl"/>):(<HiOutlineMenuAlt3 className="text-4xl" />)}
        </button>
        </div>
     </nav>
-    <section className={`${menu?' translate-x-0' :'-translate-x-full'} min-h-screen bg-white py-20 px-10 lg:hidden w-full fixed top-24 duration-700`}>
-    <div className="">
-       <Link to={'blog'} smooth={true} spy={true} duration={500} className="" onClick={closeMenu}>blog</Link>
-       <Link to={'shop'} smooth={true} spy={true} duration={500} className="" onClick={closeMenu}>shop</Link>
-       <Link to={'contact'} smooth={true} spy={true} duration={500} className="" onClick={closeMenu}>contact</Link>
-       <Link to={'products'} smooth={true} spy={true} duration={500} className="" onClick={closeMenu}>products</Link>
+    <section className={`${menu?' translate-x-0' :'-translate-x-full'} h-screen bg-white  py-20 px-10 lg:hidden w-full fixed top-20 duration-700`}>
+    <div className="h-[400px] w-full flex flex-col items-baseline pt-8 gap-4">
+    <div className="flex flex-col items-center justify-center w-full ">
+       <Link to={'blog'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>blog</Link>
+       <Link to={'shop'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>shop</Link>
+       <Link to={'contact'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>contact</Link>
+       <Link to={'products'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>products</Link>
        </div>
-       <div className="">
-       <IoLockClosedSharp  className="text-2xl"/>
-       <FiUser className="text-[22px] cursor-pointer text-black"/>
+       <div className="flex gap-8 mx-auto">
+       <IoLockClosedSharp  className="text-4xl "/>
+       <FiUser className="text-4xl text-black cursor-pointer"/>
        </div>
+    </div>
     </section>
     </header>
     
