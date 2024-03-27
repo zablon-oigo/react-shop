@@ -1,5 +1,9 @@
 import { useState } from "react"
 import { Link } from "react-scroll"
+import { FiUser } from "react-icons/fi";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { IoCloseOutline } from "react-icons/io5";
+import { IoLockClosedSharp } from "react-icons/io5";
 function Navbar() {
     const[menu,setMenu]=useState(false)
     const toggleMenu=()=>{
@@ -22,10 +26,11 @@ function Navbar() {
        <Link to={'products'} smooth={true} spy={true} duration={500} className="">products</Link>
        </div>
        <div className="">
-
+       <IoLockClosedSharp  className="text-2xl"/>
+       <FiUser className="text-2xl"/>
        </div>
        <button className="" onClick={toggleMenu}>
-           {menu?('click here'):('close')}
+           {menu?(<IoCloseOutline />):(<HiOutlineMenuAlt3 />)}
        </button>
     </nav>
     <section className={`${menu?' translate-x-0' :'-translate-x-full'} `}>
