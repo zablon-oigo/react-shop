@@ -20,10 +20,10 @@ function Navbar() {
         <Link to={'/'} smooth={true} spy={true} duration={300} className="text-3xl font-semibold capitalize duration-300 cursor-pointer hover:text-secondary" >shop</Link>
        </div>
        <div className="flex justify-center flex-1 xl:gap-12 gap-x-4 max-lg:hidden">
-       <Link to={'blog'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize duration-300 cursor-pointer hover:text-secondary">blog</Link>
-       <Link to={'shop'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize duration-300 cursor-pointer hover:text-secondary">shop</Link>
-       <Link to={'contact'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize duration-300 cursor-pointer hover:text-secondary">contact</Link>
-       <Link to={'products'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize duration-300 cursor-pointer hover:text-secondary">products</Link>
+       <Link to={'blog'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize transition-all duration-700 cursor-pointer hover:text-secondary hover:translate-x-2">blog</Link>
+       <Link to={'shop'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize transition-all duration-700 cursor-pointer hover:text-secondary hover:translate-x-2">shop</Link>
+       <Link to={'contact'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize transition-all duration-700 cursor-pointer hover:text-secondary hover:translate-x-2">contact</Link>
+       <Link to={'products'} smooth={true} spy={true} duration={500} className="text-lg font-bold leading-normal text-black capitalize transition-all duration-700 cursor-pointer hover:text-secondary hover:translate-x-2">products</Link>
        </div>
        <div className="flex items-center justify-between ">
        <div className="flex items-center justify-center gap-x-4 max-lg:hidden">
