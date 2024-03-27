@@ -38,14 +38,14 @@ function Navbar() {
     <section className={`${menu?' translate-x-0' :'-translate-x-full'} h-screen bg-white  py-20 px-10 lg:hidden w-full fixed top-20 duration-700`}>
     <div className="h-[400px] w-full flex flex-col items-baseline pt-8 gap-4">
     <div className="flex flex-col items-center justify-center w-full ">
-       <Link to={'blog'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>blog</Link>
-       <Link to={'shop'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>shop</Link>
-       <Link to={'contact'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>contact</Link>
-       <Link to={'products'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize cursor-pointer" onClick={closeMenu}>products</Link>
+       <Link to={'blog'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize duration-700 cursor-pointer hover:translate-x-2 hover:text-secondary" onClick={closeMenu}>blog</Link>
+       <Link to={'shop'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize duration-700 cursor-pointer hover:translate-x-2 hover:text-secondary" onClick={closeMenu}>shop</Link>
+       <Link to={'contact'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize duration-700 cursor-pointer hover:translate-x-2 hover:text-secondary" onClick={closeMenu}>contact</Link>
+       <Link to={'products'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize duration-700 cursor-pointer hover:translate-x-2 hover:text-secondary" onClick={closeMenu}>products</Link>
        </div>
        <div className="flex gap-8 mx-auto">
-       <IoLockClosedSharp  className="text-4xl "/>
-       <FiUser className="text-4xl text-black cursor-pointer"/>
+       <IoLockClosedSharp  className="text-4xl duration-700 transition-all hover:scale-125 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
+       <FiUser className="text-4xl duration-700 transition-all hover:scale-125 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary"/>
        </div>
     </div>
     </section>
