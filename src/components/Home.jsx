@@ -11,11 +11,11 @@ function Home() {
             good living <br />Better <span className="text-primary">life</span>
         </h1>
         <p className="py-4 xl:text-xl first-letter:capitalize">find you way to the goo living with our furniture.</p>
-        <div className="relative flex flex-col justify-center my-6 -z-10 h-14">
+        <div className="relative flex flex-col justify-center my-6 md:z-10 -z-10 h-14">
           <input type="text" placeholder="Office chair"
           className="w-full h-full pl-6 text-base border-none rounded-full outline-none bg-light andolute"
            />
-          <button className="bg-secondary text-white rounded-full px-8 text-sm absolute border-none right-2 h-[80%] hoverBtn">
+          <button className="bg-secondary text-white rounded-full px-8 text-sm absolute border-none right-2 h-[80%] hover:-translate-x-4 duration-700 hover:hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)] hover:px-10">
             Search
           </button>
         </div>
