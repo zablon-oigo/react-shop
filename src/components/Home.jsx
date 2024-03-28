@@ -1,3 +1,5 @@
+import HiStar from 'react-icons/hi'
+import FiShoppingCart from 'react-icons/fi'
 function Home() {
   return (
     <>
@@ -38,6 +40,43 @@ function Home() {
           <div className="relative z-10 lg:w-1/2">
           <img src="" alt="" className="w-full" />
           </div>
+        </div>
+        <div className="items-center justify-between my-16 lg:flex">
+          <div className="lg:w-2/5">
+            <img src="" alt="" className="w-full" />
+          </div>
+        </div>
+        <div className="pt-8 lg:w-1/2 lg:pt-0">
+          <div className="flex flex-wrap items-center justify-between">
+          <span className="">
+            <p className="">
+              new arrival
+            </p>
+            <p className="">
+              scott chair
+            </p>
+            <div className="flex items-center pb-4">
+              {[...Array(5).map((_,index)=>(
+                <HiStar key={index} className="text-[#FFCC02] text-base last:text-gray"/>
+              ))]}
+              <p className="pl-2 text-sm font-semibold text-red-200">
+                35k reviews
+              </p>
+            </div>
+          </span>
+          <p className="leading-normal text-gray xl:text-xl lg:w-1/2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur saepe, voluptates fugit quas doloremque accusantium a.
+          </p>
+          </div>
+         
+        </div>
+        <p className="text-2xl font-bold">$413.<span className="text-sm">00</span></p>
+        <div className="flex items-center justify-between my-8">
+          <span className="flex items-center gap-x-3">
+            <button className="px-6 py-2 text-white border-none rounded-full bg-secondary">buy</button>
+            <FiShoppingCart/>
+          </span>
+          <p className="">see more</p>
         </div>
      </div>
     </div>
