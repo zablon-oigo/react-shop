@@ -26,10 +26,10 @@ function Blog() {
 
                     </div>
                     <div className="">
-                        <h2 className="mt-4 text-2xl font-semibold capitalize">lowie chair</h2>
-                        <div className="flex items-center pt-4 pb-4">
+                        <h2 className="mt-4 text-3xl font-semibold capitalize">pure mahogany chair</h2>
+                        <div className="flex items-center justify-center pt-4 pb-4 md:justify-start">
                             {[...Array(5)].map((_, index)=>(
-                            <HiStar key={index} className="text-[#FFCC02] text-base last:text-gray"/>
+                            <HiStar key={index} className="text-[#FFCC02] text-base"/>
                             ))}
                             <p className="pl-2 text-sm font-semibold text-red-200">1.4k reviews</p>    
                         </div>
