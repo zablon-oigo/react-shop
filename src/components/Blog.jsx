@@ -35,17 +35,17 @@ function Blog() {
                         </div>
                     </div>
                     <div className="">
-                    <p className="leading-normal text-[#a8a8b9] xl:text-xl mb-4 ">
-                        Dimensions: 60cm x 50cm <br/> <span className="text-sm">mahogany</span>
+                    <p className="leading-normal text-center md:text-start text-[#a8a8b9] xl:text-xl mb-4 ">
+                        Dimensions: 60cm x 50cm <br/> <span className="text-xs md:text-sm ">mahogany</span>
                         </p>
-                        <p className="mb-4 text-3xl font-bold">
+                        <p className="mb-4 text-3xl font-bold text-center md:text-start">
                         $100.<span className="text-sm">00</span>
                          </p>
-                        <span className="flex items-center gap-x-4">
+                        <span className="flex items-center justify-center md:justify-start gap-x-4">
                         <button className="px-12 py-3 text-white capitalize border-none rounded-full bg-secondary hover:shadow-[0_3px_15px_rgba(0,0,0,0.6)] duration-700 hover:scale-110  hover:bg-white hover:text-secondary">buy</button>
                          <FiShoppingCart className="text-4xl duration-700 transition-all hover:scale-125 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary" />
                         </span>
-                        <p className="pt-6 text-sm font-light cursor-pointer text-secondary xl:text-lg">
+                        <p className="pt-6 text-sm font-light text-center cursor-pointer md:text-start text-secondary xl:text-lg">
                             more collection...
                         </p>
               </div>
