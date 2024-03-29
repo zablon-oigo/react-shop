@@ -20,7 +20,7 @@ function Blog() {
                         <p className="mb-2 text-[#a8a8b9] md:text-sm text-xs mt-4 capitalize md:text-start text-center ">crafted by</p>
                         <div className="flex items-center justify-between w-full mt-4 md:mt-0 md:w-1/2">
                         {images.map((item) => (
-                            <img src={item} alt="" className="w-[50px] h-[50px] rounded-full ring-2 ring-secondary" key={item} />
+                            <img src={item} alt="" className="w-[50px] h-[50px] rounded-full ring-2 ring-secondary  hover:scale-125 duration-700  transition-all hover:hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)] " key={item} />
                         ))}
                     </div>
 
@@ -43,9 +43,9 @@ function Blog() {
                          </p>
                         <span className="flex items-center gap-x-4">
                         <button className="px-12 py-3 text-white capitalize border-none rounded-full bg-secondary">buy</button>
-                         <FiShoppingCart className="text-2xl text-secondary" />
+                         <FiShoppingCart className="text-4xl duration-700 transition-all hover:scale-125 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary" />
                         </span>
-                        <p className="pt-6 text-sm font-semibold cursor-pointer text-secondary xl:text-lg">
+                        <p className="pt-6 text-sm font-light cursor-pointer text-secondary xl:text-lg">
                             more collection...
                         </p>
               </div>
