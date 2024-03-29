@@ -9,7 +9,7 @@ function Blog() {
   return (
     <div>
         <div className="relative px-10">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col-reverse items-center justify-between md:flex-row">
                 <div className="lg:w-2/5">
                     <div className="">
                         <h2 className="uppercase font-semibold text-center text-[#a8a8b9]">
@@ -17,8 +17,8 @@ function Blog() {
                         </h2>
                     </div>
                     <div className="">
-                        <p className="mb-2 text-[#a8a8b9] text-sm capitalize ">crafted by</p>
-                        <div className="flex items-center justify-between w-1/2">
+                        <p className="mb-2 text-[#a8a8b9] md:text-sm text-xs mt-4 capitalize md:text-start text-center ">crafted by</p>
+                        <div className="flex items-center justify-between w-full mt-4 md:mt-0 md:w-1/2">
                         {images.map((item) => (
                             <img src={item} alt="" className="w-[50px] h-[50px] rounded-full ring-2 ring-secondary" key={item} />
                         ))}
