@@ -56,8 +56,7 @@ function Home() {
           <img src={chair1} alt="" className="w-full" />
           </div>
       </div>
-    
-    <HomeSection/>   
+      <HomeSection/>  
       </div>
     </>
   )
