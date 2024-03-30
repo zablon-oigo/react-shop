@@ -1,3 +1,4 @@
+import Featured from "./Layout/Featured"
 import Blog from "./components/Blog"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
@@ -14,6 +15,9 @@ function App() {
     </div>
     <div id="blog">
       <Blog/>
+    </div>
+    <div id="">
+    <Featured/>
     </div>
     </>
   )
