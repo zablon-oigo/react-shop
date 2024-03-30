@@ -7,9 +7,9 @@ function Featured() {
   return (
     <>
     <div className="min-h-[500px] my-20 px-10 py-20">
-        <div className="flex justify-between">
+        <div className="flex flex-col-reverse justify-between lg:flex-row">
             <div className="lg:w-1/3">
-                <h2 className="mb-4 text-4xl font-semibold first-letter:capitalize">
+                <h2 className="mb-4 text-4xl font-semibold leading-normal text-center lg:text-start first-letter:capitalize">
                     featured for you
                 </h2>
                 <div className="pt-10">
@@ -28,10 +28,10 @@ function Featured() {
                 </div>
             </div>
             <div className="pt-10 lg:w-1/2 lg:ml-10">
-                <h2 className="mb-2 text-2xl font-semibold capitalize">
+                <h2 className="mb-2 text-2xl font-semibold text-center capitalize lg:text-start">
                     lamp stand
                 </h2>
-                <p className="text-lg font-light">
+                <p className="font-light text-center lg:text-lg lg:text-start">
                 A lamp crafted from wood with a 5V output, featuring a smoothly textured neck.
                 </p>
                 <div className="flex items-center justify-center pt-4 pb-4 md:justify-start">
