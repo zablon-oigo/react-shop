@@ -8,7 +8,7 @@ function Blog() {
     const images=[test1,test2,test3]
   return (
     <div>
-        <div className="relative px-10">
+        <div className=" min-h-[500px] my-20 relative px-10">
             <div className="flex flex-col-reverse items-center justify-between md:flex-row">
                 <div className="lg:w-2/5">
                     <div className="">
@@ -53,7 +53,7 @@ function Blog() {
                 <div className=" lg:w-2/3">
                     <img src={sofa} alt="" className="" />
                 </div>
-                <div className="hidden lg:block bg-[#e4d7d1] h-full w-1/2 absolute right-0 -z-10 rounded-tl-[100px]"></div>
+                <div className="hidden lg:block bg-[#e4d7d1] h-full w-1/2 absolute right-0 -z-10 rounded-l-[100px]"></div>
             </div>
             
         </div>
