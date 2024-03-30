@@ -45,7 +45,7 @@ function Featured() {
                     <img src={lamp2} alt="" key={index} className="w-[250px] h-[250px] object-center object-cover" />
                             ))}
                 </div>
-                <div className="flex items-center justify-center gap-x-4">
+                <div className="flex flex-col items-center justify-center lg:flex-row gap-x-4">
                         <p className="mb-4 text-3xl font-bold text-center md:text-start">
                         $150.<span className="text-sm">00</span>
                          </p>
