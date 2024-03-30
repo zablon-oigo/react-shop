@@ -40,7 +40,7 @@ function HomeSection() {
           <p className="leading-normal text-gray ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolores rerum nisi sequi, exercitationem explicabo nobis.
               </p>
-          <p className="text-sm font-semibold cursor-pointer text-secondary xl:text-lg">see more</p>
+          <p className="mt-2 text-sm font-light transition-all duration-500 cursor-pointer hover:translate-x-2 text-secondary xl:text-lg">see more ...</p>
           </div>
           </div>
        </div>
