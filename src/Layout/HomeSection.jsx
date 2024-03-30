@@ -31,8 +31,8 @@ function HomeSection() {
                   $413.<span className="text-sm">00</span>
                     </p>
                   <span className="flex items-center gap-x-3">
-                  <button className="px-6 py-3 text-white capitalize border-none rounded-full bg-secondary">buy</button>
-                  <FiShoppingCart className="text-2xl text-secondary" />
+                  <button className="px-12 py-3 text-white capitalize border-none rounded-full bg-secondary hover:shadow-[0_3px_15px_rgba(0,0,0,0.6)] duration-700 hover:scale-110  hover:bg-white hover:text-secondary">buy</button>
+                  <FiShoppingCart className="text-4xl duration-700 transition-all hover:scale-125 hover:shadow-[0_3px_15px_rgba(0,0,0,0.4)]  bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary" />
                 </span>
               </div>
           </div>
