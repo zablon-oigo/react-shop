@@ -3,7 +3,7 @@ import { FaFacebookF,FaGoogle,FaInstagram,FaTwitter } from "react-icons/fa";
 export class Footer extends Component {
   render() {
     return (
-      <footer className="container mx-auto px-14 py-8 bg-white rounded-b-[50px]">
+      <footer className="container mx-auto px-6 lg:px-14 py-8 bg-white rounded-b-[50px]">
         <div className="flex flex-col justify-between gap-8 md:flex-row">
         <div className="flex items-center gap-4 text-2xl md:justify-center">
           <FaFacebookF/>
