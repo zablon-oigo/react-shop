@@ -31,7 +31,7 @@ function Featured() {
                 <h2 className="mb-2 text-2xl font-semibold text-center capitalize lg:text-start">
                     lamp stand
                 </h2>
-                <p className="font-light text-center text-gray lg:text-lg lg:text-start">
+                <p className="w-3/5 font-light text-center text-gray lg:text-lg lg:text-start">
                 A lamp crafted from wood with a 5V output, featuring a smoothly textured neck.
                 </p>
                 <div className="flex items-center justify-center pt-4 pb-4 md:justify-start">
@@ -42,7 +42,7 @@ function Featured() {
                         </div>
                 <div className="flex items-center justify-center">
                 {[...Array(2)].map((_, index)=>(
-                    <img src={lamp2} alt="" key={index} className="w-[250px] h-[250px] object-center object-cover" />
+                    <img src={lamp2} alt="" key={index} className="w-[250px] h-[250px] object-center object-cover duration-700 hover:scale-125" />
                             ))}
                 </div>
                 <div className="flex flex-col items-center justify-center lg:flex-row gap-x-4">
