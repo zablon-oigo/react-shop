@@ -1,5 +1,6 @@
 import Featured from "./Layout/Featured"
 import Blog from "./components/Blog"
+import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 
@@ -19,6 +20,7 @@ function App() {
     <div id="">
     <Featured/>
     </div>
+    <Footer/>
     </>
   )
 }
