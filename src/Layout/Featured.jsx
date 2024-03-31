@@ -14,15 +14,15 @@ function Featured() {
                 </h2>
                 <div className="pt-10">
                     <ul className="">
-                        <li className="mb-2 text-xl text-[#a8a8b9] font-light first-letter:capitalize">modern chair</li>
-                        <div className="flex items-center justify-start gap-2">
-                        <li className="mb-2 text-xl font-light first-letter:capitalize animate-bounce text-secondary"> lamp  </li>
-                        <IoIosArrowRoundForward className="pt-0.5 text-2xl animate-bounce text-secondary" />
+                        <li className="mb-2 text-xl cursor-pointer hover:text-primary hover:translate-x-3 duration-500 text-[#a8a8b9] font-light first-letter:capitalize">modern chair</li>
+                        <div className="flex items-center justify-start gap-2 group">
+                        <li className="mb-2 text-xl font-light duration-500 cursor-pointer group-hover:text-gray first-letter:capitalize animate-bounce text-secondary"> lamp  </li>
+                        <IoIosArrowRoundForward className="pt-0.5 text-2xl animate-bounce text-secondary duration-500 cursor-pointer group-hover:text-gray" />
                         </div>
-                        <li className="mb-2 text-xl text-[#a8a8b9] font-light first-letter:capitalize">wardrope</li>
-                        <li className="mb-2 text-xl text-[#a8a8b9] font-light first-letter:capitalize">bed</li>
-                        <li className="mb-2 text-xl text-[#a8a8b9] font-light first-letter:capitalize">fig lamp</li>
-                        <li className="mb-2 text-xl text-[#a8a8b9] font-light first-letter:capitalize">table</li>
+                        <li className="mb-2 text-xl cursor-pointer hover:text-primary hover:translate-x-3 duration-500 text-[#a8a8b9] font-light first-letter:capitalize">wardrope</li>
+                        <li className="mb-2 text-xl cursor-pointer hover:text-primary hover:translate-x-3 duration-500 text-[#a8a8b9] font-light first-letter:capitalize">bed</li>
+                        <li className="mb-2 text-xl cursor-pointer hover:text-primary hover:translate-x-3 duration-500 text-[#a8a8b9] font-light first-letter:capitalize">fig lamp</li>
+                        <li className="mb-2 text-xl cursor-pointer hover:text-primary hover:translate-x-3 duration-500 text-[#a8a8b9] font-light first-letter:capitalize">table</li>
                     </ul>
                 
                 </div>
@@ -55,12 +55,12 @@ function Featured() {
                         </span>
                         
                 </div>
-                <p className="pt-6 text-sm font-light text-center cursor-pointer md:text-start text-secondary xl:text-lg">
+                <p className="pt-6 text-sm font-light text-center duration-500 cursor-pointer hover:translate-x-2 md:text-start text-secondary xl:text-lg">
                             view more...
                         </p>
             </div>
             <div className="lg:w-1/2">
-                <img src={lamp} alt="" className="" />
+                <img src={lamp} alt="" className="duration-700 hover:scale-125" />
             </div>
         </div>
     </div>
