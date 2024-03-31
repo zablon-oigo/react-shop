@@ -31,7 +31,7 @@ function Featured() {
                 <h2 className="mb-2 text-2xl font-semibold text-center capitalize lg:text-start">
                     lamp stand
                 </h2>
-                <p className="font-light text-center lg:text-lg lg:text-start">
+                <p className="font-light text-center text-gray lg:text-lg lg:text-start">
                 A lamp crafted from wood with a 5V output, featuring a smoothly textured neck.
                 </p>
                 <div className="flex items-center justify-center pt-4 pb-4 md:justify-start">
