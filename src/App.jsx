@@ -1,3 +1,4 @@
+import Contact from "./Layout/Contact"
 import Featured from "./Layout/Featured"
 import Blog from "./components/Blog"
 import Footer from "./components/Footer"
@@ -20,6 +21,7 @@ function App() {
     <div id="">
     <Featured/>
     </div>
+    <Contact/>
     <Footer/>
     </>
   )
