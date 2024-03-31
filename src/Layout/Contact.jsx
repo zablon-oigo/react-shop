@@ -2,7 +2,7 @@
 function Contact() {
   return (
     <>
-    <div className="rounded-[50px] w-full h-[20rem] my-16  lg:h-[36rem] bg-furniture bg-no-repeat bg-cover bg-bottom  sm:p-16 px-10 py-6" data-aos="zoom-in">
+    <div className="rounded-[50px] w-full h-[20rem] lg:my-16 my-10  lg:h-[36rem] bg-furniture bg-no-repeat bg-cover bg-bottom  sm:p-16 px-10 py-6" data-aos="zoom-in">
        <div className="flex flex-col justify-center w-full h-full lg:-mt-32"
        >
        <div className="">
