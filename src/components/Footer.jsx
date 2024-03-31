@@ -4,8 +4,8 @@ export class Footer extends Component {
   render() {
     return (
       <footer className="container mx-auto px-14 py-8 bg-white rounded-b-[50px]">
-        <div className="flex flex-wrap justify-between gap-8">
-        <div className="flex items-center justify-center gap-4 text-2xl">
+        <div className="flex flex-col justify-between gap-8 md:flex-row">
+        <div className="flex items-center gap-4 text-2xl md:justify-center">
           <FaFacebookF/>
           <FaGoogle/>
           <FaInstagram/>
