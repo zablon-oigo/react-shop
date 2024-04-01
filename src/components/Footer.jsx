@@ -11,6 +11,7 @@ export class Footer extends Component {
           <FaInstagram/>
           <FaTwitter/>
         </div>
+        <div className="flex justify-between px-4 lg:justify-around w-full lg:px-0 ">
         <div className="flex flex-col">
           <h2 className="mb-6 text-2xl font-semibold capitalize">shop</h2>
           <a href="" className="mb-2 text-xl font-light capitalize">chair</a>
@@ -22,6 +23,7 @@ export class Footer extends Component {
           <a href="" className="mb-2 text-xl font-light capitalize">contact</a>
           <a href="" className="mb-2 text-xl font-light capitalize">payment</a>
           <a href="" className="mb-2 text-xl font-light capitalize">faq</a>
+        </div>
         </div>
         </div>
         <div className=""></div>
