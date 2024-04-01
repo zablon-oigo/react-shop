@@ -18,7 +18,7 @@ function Home() {
                 <h1 className="text-4xl font-semibold capitalize lg:text-6xl lg:leading-normal">
                       good living <br />Better <span className="text-primary">life</span>
                   </h1>
-                    <p className="py-4 text-center lg:text-start xl:text-xl first-letter:capitalize">find you way to the go living with our furniture.</p>
+                    <p className="py-4 text-center lg:text-start xl:text-xl first-letter:capitalize">Discover your path to comfortable living with our furniture.</p>
                     <div>
                     <div className="relative flex flex-col justify-center my-6 md:z-10 -z-10 h-14">
                     <input type="text" placeholder="Office chair"
