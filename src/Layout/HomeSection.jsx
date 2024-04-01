@@ -38,7 +38,7 @@ function HomeSection() {
           </div>
           <div className="order-1 my-8 md:order-2">
           <p className="leading-normal text-gray ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolores rerum nisi sequi, exercitationem explicabo nobis.
+          The Scott chair is designed for optimal comfort and style. With its ergonomic design and premium materials, it provides unparalleled support for long hours of sitting. Elevate your seating experience with the Scott chair.
               </p>
           <p className="mt-2 text-sm font-light transition-all duration-500 cursor-pointer hover:translate-x-2 text-secondary xl:text-lg">see more ...</p>
           </div>
