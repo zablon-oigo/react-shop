@@ -26,7 +26,11 @@ export class Footer extends Component {
         </div>
         </div>
         </div>
-        <div className=""></div>
+        <div className="">
+          <p className="text-lg font-light text-gray text-center mt-4">
+            Copyright &copy; {new Date().getFullYear()}
+          </p>
+        </div>
       </footer>
     )
   }
