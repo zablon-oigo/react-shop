@@ -35,7 +35,7 @@ function Navbar() {
        </button>
        </div>
     </nav>
-    <section className={`${menu?' translate-x-0' :'-translate-x-full'} h-screen bg-white  py-20 px-10 lg:hidden w-full fixed top-20 duration-700`}>
+    <section className={`${menu?' translate-x-0' :'-translate-x-full'} h-screen bg-white z-10 py-20 px-10 lg:hidden w-full fixed top-20 duration-700`}>
     <div className="h-[400px] w-full flex flex-col items-baseline pt-8 gap-4">
     <div className="flex flex-col items-center justify-center w-full ">
        <Link to={'blog'} smooth={true} spy={true} duration={500} className="mb-8 text-4xl font-light capitalize duration-700 cursor-pointer hover:translate-x-2 hover:text-secondary" onClick={closeMenu}>blog</Link>
