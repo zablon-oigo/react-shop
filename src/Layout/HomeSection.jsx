@@ -10,7 +10,7 @@ function HomeSection() {
           data-aos-duration="3000">
             <img src={chair2} alt="" className="w-full" />
           </div>
-          <div className="grid w-2/3 grid-cols-1 md:grid-cols-2">
+          <div className="grid lg:w-2/3 grid-cols-1 md:grid-cols-2">
           <div className="flex flex-col items-center justify-between order-2 md:order-1">
             <span className="">
                 <p className="pb-2 text-sm font-semibold uppercase text-gray">
