@@ -14,15 +14,15 @@ export class Footer extends Component {
         <div className="flex justify-between px-4 lg:justify-around w-full lg:px-0 ">
         <div className="flex flex-col">
           <h2 className="mb-6 text-2xl font-semibold capitalize">shop</h2>
-          <a href="" className="mb-2 text-xl font-light capitalize">chair</a>
-          <a href="" className="mb-2 text-xl font-light capitalize">table</a>
-          <a href="" className="mb-2 text-xl font-light capitalize">bed</a>
+          <a href="" className="mb-2 text-xl font-light duration-500 hover:text-secondary hover:translate-x-2 capitalize">chair</a>
+          <a href="" className="mb-2 text-xl font-light duration-500 hover:text-secondary hover:translate-x-2 capitalize">table</a>
+          <a href="" className="mb-2 text-xl font-light duration-500 hover:text-secondary hover:translate-x-2 capitalize">bed</a>
         </div>
         <div className="flex flex-col">
           <h2 className="mb-6 text-2xl font-semibold capitalize">help</h2>
-          <a href="" className="mb-2 text-xl font-light capitalize">contact</a>
-          <a href="" className="mb-2 text-xl font-light capitalize">payment</a>
-          <a href="" className="mb-2 text-xl font-light capitalize">faq</a>
+          <a href="" className="mb-2 text-xl font-light duration-500 hover:text-secondary hover:translate-x-2 capitalize">contact</a>
+          <a href="" className="mb-2 text-xl font-light duration-500 hover:text-secondary hover:translate-x-2 capitalize">payment</a>
+          <a href="" className="mb-2 text-xl font-light duration-500 hover:text-secondary hover:translate-x-2 capitalize">faq</a>
         </div>
         </div>
         </div>
