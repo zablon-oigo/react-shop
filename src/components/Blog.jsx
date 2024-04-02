@@ -51,7 +51,7 @@ function Blog() {
               </div>
                 </div>
                 <div className=" lg:w-2/3">
-                    <img src={sofa} alt="" className="" />
+                    <img src={sofa} alt="" className="" data-aos="fade-left" data-aos-duration="3000" data-easing="ease-in-sine"/>
                 </div>
                 <div className="hidden lg:block bg-[#e4d7d1] h-full w-1/2 absolute right-0 -z-10 rounded-l-[100px]"></div>
             </div>
