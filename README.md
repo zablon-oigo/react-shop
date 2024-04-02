@@ -2,7 +2,31 @@
 ## Tech Stack
 
 **Client:** React, TailwindCSS
+## Run Locally
 
+Clone the project
+
+```bash
+  git clone git@github.com:zablon-oigo/react-shop.git
+```
+
+Go to the project directory
+
+```bash
+  cd react-shop
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
 ## Screenshots
 ![Screenshot 2024-04-02 at 10-03-57 Shop](https://github.com/zablon-oigo/react-shop/assets/143833326/6b639382-c7b0-404f-b30d-c9cc173669db)
 ![Screenshot 2024-04-02 at 10-04-59 Shop](https://github.com/zablon-oigo/react-shop/assets/143833326/1eb78a95-5e91-438a-9aff-39a294d11852)
