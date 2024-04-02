@@ -4,9 +4,14 @@ import Blog from "./components/Blog"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
-
+import AOS from 'aos';
+import { useEffect } from "react"
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
   return (
     <>
     <div className="">
