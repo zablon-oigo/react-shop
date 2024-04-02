@@ -60,7 +60,7 @@ function Featured() {
                         </p>
             </div>
             <div className="lg:w-1/2">
-                <img src={lamp} alt="" className="duration-700 hover:scale-125" />
+                <img src={lamp} alt="" className="duration-700 hover:scale-125" data-aos="zoom-in" data-aos-duration="3000" data-easing="ease-in-sine"/>
             </div>
         </div>
     </div>
